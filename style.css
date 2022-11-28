@@ -1,0 +1,93 @@
+.body {
+    padding: 30px;
+}
+
+.block {
+    margin: 0px 0px 30px 0px;
+}
+
+.block p:nth-child(odd) {
+    background-color: yellow;
+}
+
+.block p:nth-child(even) {
+    background-color: green;
+}
+
+.block:hover {
+    background: none;
+}
+
+.block p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px 0px 20px 0px;
+}
+
+.link {
+    color: red;
+}
+
+.link:visited {
+    color: green;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.link:active {
+    color: yellow;
+}
+
+.textinput {
+    border: 1px solid #666;
+    width: 300px;
+    height: 50px;
+    padding: 0px;
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+
+.textinput:focus {
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.textbutton {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-color: #666;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+    
+}
+
+.textbutton:hover {
+    background-color: #333;
+    color: green;
+}
+
+.textbutton:active {
+    background-color: #fff;
+}
+
+.list li {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.list li:first-child {
+    color: green;
+}
+
+.list li:last-child {
+    color: red;
+}
+
+.list li:nth-child(even) {
+    text-transform: uppercase;
+}
